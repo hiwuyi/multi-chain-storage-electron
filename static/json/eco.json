@@ -1,0 +1,61 @@
+{
+  "data": {
+    "active_deals": 2,
+    "bucket_folder_count": 1499,
+    "graph": {
+      "max_bucket": 1499,
+      "max_file": 2128,
+      "max_val": 34370788618,
+      "min_bucket": 0,
+      "min_file": 2128,
+      "min_val": 34364591449,
+      "pinned_size": [
+        34364591449,
+        34370788618,
+        34370788618,
+        34370788618,
+        34370788618,
+        34370788618
+      ],
+      "sealed_storage": [
+        4096,
+        4096,
+        4096,
+        4096,
+        4096,
+        4096
+      ],
+      "time": [
+        1673539726,
+        1673626126,
+        1673630997,
+        1673717398,
+        1673803798,
+        1673890198
+      ],
+      "user_bucket_count": [
+        0,
+        0,
+        1499,
+        1499,
+        1499,
+        1499
+      ],
+      "user_uploads": [
+        2128,
+        2128,
+        2128,
+        2128,
+        2128,
+        2128
+      ]
+    },
+    "miner_count": 2,
+    "pinned_ipfs_size": 34370788618,
+    "sealed_storage": 4096,
+    "source_file_cids": 5209,
+    "user_uploads": 2128,
+    "wallet_count": 28
+  },
+  "status": "success"
+}
