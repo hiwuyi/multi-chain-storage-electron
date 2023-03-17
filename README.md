@@ -44,42 +44,17 @@ $ npm run dev_t
 
 Navigate to `http://localhost:8080/`. The app will automatically reload if you change any of the source files.
 
-## Build project
+## Generate Electron
 
-Node version below 17
 ```shell
-# Build test projects
-$ npm run build:test
+# Node version below 17
+$ npm run electron:dist
 
-# Build prod test projects
-$ npm run build:test_prod
+# Node version 17 and above (window system)
+$ npm run electron:dist_win
 
-# Build calibration projects
-$ npm run build:calibration
-
-# Build prod projects
-$ npm run build:prod
-
-# Build semi prod projects
-$ npm run build:semi_prod
-```
-
-Node version 17 and above
-```shell
-# Build test projects
-$ npm run build:test_t
-
-# Build prod test projects
-$ npm run build:test_prod_t
-
-# Build calibration projects
-$ npm run build:calibration_t
-
-# Build prod projects
-$ npm run build:prod_t
-
-# Build semi prod projects
-$ npm run build:semi_prod_t
+# Node version 17 and above
+$ npm run electron:dist_darwin
 ```
 
 The build artifacts will be stored in the `dist/` directory.

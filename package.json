@@ -24,7 +24,7 @@
     "electron:start": "electron .",
     "electron:dist": "npm run build:prod && electron-builder",
     "electron:dist_win": "npm run build:prod_t && electron-builder --win  --x64",
-    "electron:dist_darwin": "npm run build:prod_t && electron-builder --darwin  --x64",
+    "electron:dist_darwin": "npm run build:prod_u && electron-builder --darwin  --x64",
     "electron:packager": "electron-packager . release --platform=darwin --arch=x64 --icon=build/MCS_logo.png --out=./dist --asar --app-version=1.0.0  --overwrite --ignore=\"(release|dist|src|docs|.gitignore|LICENSE|README.md|webpack.config*|node_modules)\""
   },
   "repository": "https://github.com/electron/electron-quick-start",
